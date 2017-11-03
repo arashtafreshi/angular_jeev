@@ -1,0 +1,22 @@
+{
+    "/v1/*":{
+        "target":{
+            "host":"api.instagram.com",
+            "protocol":"https",
+            "port":80
+        },
+        "secure":false,
+        "logLevel":"debug",
+        "changeOrigin":true
+    },
+    "/_uuids":{
+        "target":{
+            "host":"localhost",
+            "protocol":"http",
+            "port":5984
+        },
+        "secure":false,
+        "logLevel":"debug",
+        "changeOrigin":true
+    }
+}
