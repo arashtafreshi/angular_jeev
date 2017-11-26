@@ -12,7 +12,7 @@ export class HomeMainTopComponent implements OnInit {
   constructor(private instagramConnectorService:InstagramConnectorService) { }
 
   ngOnInit() {
-    this.instagramConnectorService.getUserInfo().then(res=>console.log(res));
+    //this.instagramConnectorService.getUserInfo().then(res=>console.log(res));
   }
 
 }
